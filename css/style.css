@@ -2,6 +2,7 @@
 @import url(./header.css);
 @import url(./intro.css);
 @import url(./description.css);
+@import url(./benefits.css);
 
 body {
     font-family: 'Jost', sans-serif;

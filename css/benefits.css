@@ -1,6 +1,59 @@
-.benefits{
+.benefits {
     width: 100%;
-    max-width: 12.7rem;
+    max-width: 124rem;
     max-height: 80rem;
     margin: 0 auto;
+    background:rgb(246,249,255);
+}
+
+.benefits__first {
+    width: 100%;
+    max-width: 50rem;
+    max-height: 26.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits__first__number {
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background:rgb(199,215,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.benefits__number {
+    font-size: 4.1rem;
+    font-weight: 400;
+    color: #001049;
+}
+
+.benefits__first__text {
+    width: 100%;
+    max-width: 39.7rem;
+    max-height: 14.4rem;
+}
+
+.benefits__title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #001049;
+}
+
+.colored__text {
+    color: #5685FF;
+}
+
+.benefits__subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2A3354;
+    width: 100%;
+    max-width: 30.9rem;
+    max-height: 8.8rem;
 }
