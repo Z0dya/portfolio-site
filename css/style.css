@@ -1,0 +1,20 @@
+/* font-family: 'Jost', sans-serif */
+@import url(./header.css);
+@import url(./intro.css);
+@import url(./description.css);
+
+body {
+    font-family: 'Jost', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+

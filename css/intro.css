@@ -1,0 +1,129 @@
+.intro {
+    width: 100%;
+    max-width: 144rem;
+    max-height: 86.7rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 73rem;
+    width: 100%;
+    max-width: 63rem;
+}
+
+.intro__title {
+    color: #001049;
+    font-size: 7rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.intro__subtitle {
+    color: #001049;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 80%;
+}
+
+.intro__buttons {
+    display: flex;
+
+}
+
+.intro__button {
+    font-size: 16px;
+    font-weight: 500;
+    border: #5685FF solid 0.2rem;
+    background-color: #5685FF;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro__button:hover {
+    opacity: 80%;
+    box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
+}
+
+.intro__buttonclear {
+    color: #001049;
+    font-size: 16px;
+    font-weight: 500;
+    border: #5685FF solid 0.2rem;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 1rem 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro__buttonclear:hover {
+    box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
+}
+
+.intro__right {
+    display: grid;
+    grid-template-columns: 25.9rem 25.9rem;
+    height: fit-content;
+    align-self: center;
+    gap: 2rem;
+}
+
+/* Выставили строгий размер всем квадратам 
+    box-sizing - 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ */
+.square {
+    height: 25.9rem;
+    width: 25.9rem;
+    border-radius: 4rem;
+    box-sizing: border-box;
+}
+
+/* Элементы занимают пространство большее, чем
+размер контейнера. Ограничиваем их размер 100% размером родителя (square)
+ */
+.image-sq {
+    height: 100%;
+    width: 100%;
+}
+
+/* Для 4-го всё особеное, потому что он за размеры
+блока выходит визуально
+ */
+.image-sq--80 {
+    height: 140%;
+    width: 150%;
+}
+
+/* padding увеличивает отсуп картинки от границы 
+контейнера (square) и картинка сжимается
+ */
+.intro__square1 {
+    background-color: #FF9292;
+    padding: 2.5rem;
+}
+
+.intro__square2 {
+    background-color: #FFDA92;
+    padding: 2.5rem;
+}
+
+/* 3 элемент прикасается к границам блока, так что
+padding ему не нужен
+ */
+.intro__square3 {
+    background-color: #C292FF;
+}
+
+.intro__square4 {
+    background-color: #92EBFF;
+    padding: 2rem;
+}

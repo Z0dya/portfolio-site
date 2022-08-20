@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6.1rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 100%;
+    max-width: 124rem;
+}
+
+.header__link,
+.header__buttons {
+    margin: 0 1rem;
+
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header__link--button {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgba(0, 16, 73, 0.2) solid 0.2rem;
+    padding: 1rem 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.underlink:hover {
+    text-decoration: underline;
+}
+
+.header__link--button:hover {
+    box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
+}
