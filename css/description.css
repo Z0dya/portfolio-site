@@ -1,7 +1,7 @@
 /* второй блок */
 .description {
     width: 100%;
-    max-width: 124rem;
+    max-width: 144rem;
     max-height: 72rem;
     margin: 0 auto;
 }
@@ -95,4 +95,5 @@
     justify-content: center;
     position: relative;
     right: 15rem;
+    margin-bottom: 7.2rem;
 }
