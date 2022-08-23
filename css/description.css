@@ -1,13 +1,5 @@
 /* второй блок */
-.description {
-    /* display: flex;
-    flex-direction: column;
-    align-items:center;
-    width: 100%;
-    max-width: 124.7rem;
-    max-height: 72rem;
-    margin: 0 auto; */
-}
+
 
 /* верхняя часть блока (левый текст и вернхний бокс с картинкой) */
 .description__upper {
@@ -78,6 +70,7 @@
 
 /* средний блок */
 .middle {
+    margin-bottom: 4rem;
     justify-items: center;
 }
 
