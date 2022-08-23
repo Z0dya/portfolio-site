@@ -1,8 +1,8 @@
 .container {
     height: 90rem;
     margin: 0 3rem;
-    width: 126rem;
-
+    max-width: 126rem;
+    width: calc(100% - 5rem); /* отступы по краям*/
 }
 
 .container--intro {
