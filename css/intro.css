@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: center;
     height: 73rem;
-    width: 100%;
     max-width: 63rem;
 }
 
@@ -21,6 +20,8 @@
     font-size: 7rem;
     margin: 0;
     font-weight: 500;
+    word-wrap:break-word;
+    
 }
 
 .intro__subtitle {

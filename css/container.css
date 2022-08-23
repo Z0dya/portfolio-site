@@ -1,0 +1,25 @@
+.container {
+    height: 90rem;
+    margin: 0 3rem;
+    width: 126rem;
+
+}
+
+.container--intro {
+    max-width: 130rem;
+
+}
+
+.container--benefits {
+    position: relative;
+    height: fit-content;
+
+}
+
+.container-bg--benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(246, 249, 255);
+}

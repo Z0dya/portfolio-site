@@ -1,36 +1,18 @@
-.benefits__items {
-    width: 100%;
-    max-width: 128.3rem;
-    height: 90rem;
-    margin: 0 auto;
-}
-
 .benefits {
-    background-color: rgb(246, 249, 255);
+    height: 70rem;
+    padding: 5rem 0;
 }
 
-.benefits__blocks {
-    width: 100%;
-    max-width: 50rem;
-    height: 100%;
-    max-height: 35rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-
-
-.benefits__blocks2 {
+.benefits__block {
     width: 100%;
     max-width: 52rem;
-    height: 100%;
-    max-height: 35rem;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
 
-.benefits__first__number {
+.benefits__number-block {
     height: 8.5rem;
     width: 8.5rem;
     border-radius: 1rem;
@@ -41,33 +23,10 @@
     margin: 3rem 0;
 }
 
-.benefits__second__number {
-    height: 8.5rem;
-    width: 8.5rem;
-    border-radius: 1rem;
-    background: rgb(199, 215, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0;
-}
-
-.benefits__blocks__text__one {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 39.7rem;
-    height: 100%;
-    max-height: 25.2rem;
-}
-
-.benefits__blocks__text__two {
-    display: flex;
-    align-items: flex-end;
+.benefits__text-block {
     width: 100%;
     max-width: 42rem;
-    height: 100%;
-    max-height: 27rem;
+    margin: 3rem 0 0 0;
 }
 
 .benefits__number {
@@ -76,20 +35,10 @@
     color: #001049;
 }
 
-.benefits__first__text {
-    width: 100%;
-    max-width: 39.7rem;
-    max-height: 25rem;
-}
-
-.benefits__second__text {
-    width: 100%;
-    max-width: 42rem;
-    max-height: 25rem;
-}
-
 .benefits__title {
+    margin: 0;
     font-size: 4rem;
+    line-height: 5rem;
     font-weight: 500;
     color: #001049;
 }
@@ -108,18 +57,19 @@
 }
 
 .benefits__button {
+    display: block;
     font-size: 16px;
     font-weight: 500;
     border: #5685FF solid 0.2rem;
     background-color: #5685FF;
     color: #FFFFFF;
     border-radius: 1rem;
-    width: 100%;
+    width: fit-content;
     max-width: 19rem;
     max-height: 6.2rem;
     padding: 1rem 3rem;
     transition: all 0.3s ease-in-out;
-
+    margin-top: 3rem;
 }
 
 .benefits__button:hover {
@@ -127,14 +77,15 @@
     box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
 }
 
-.button {
-    margin-top: 4.8rem;
-}
+
 
 .benefits__svg {
-    position: relative;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    /* 
     left: 100rem;
     bottom: 28.5rem;
     display: flex;
-    justify-content: end;
+    justify-content: end; */
 }
