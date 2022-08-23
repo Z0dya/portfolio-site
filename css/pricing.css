@@ -1,0 +1,84 @@
+.pricing {
+    width: 50rem;
+    height: 25.5rem;
+    margin: 0 auto;
+}
+
+.pricing__upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pricing__title {
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: #001049;
+    margin: 9rem 0 0 0;
+}
+
+.pricing__subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2A3354;
+    text-align: center;
+}
+
+.switch-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20.2rem;
+}
+
+.switch__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #001049;
+}
+
+.switch__checkbox{
+    display: flex;
+}
+
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: #fff;
+    border-radius: 9rem;
+    transition: 0.3s;
+}
+
+input:checked+label {
+    background: #36b416;
+}
+
+input:checked+label:after {
+    left: calc(100% - 0.5rem);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 3rem;
+}

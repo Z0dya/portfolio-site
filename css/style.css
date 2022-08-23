@@ -4,7 +4,7 @@
 @import url(./intro.css);
 @import url(./description.css);
 @import url(./benefits.css);
-
+@import url(./pricing.css);
 
 body {
     font-family: 'Jost', sans-serif;

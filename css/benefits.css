@@ -1,6 +1,7 @@
 .benefits {
-    height: 70rem;
+    height: 60rem;
     padding: 5rem 0;
+    position: relative;
 }
 
 .benefits__block {
@@ -82,5 +83,7 @@
 .benefits__svg {
     position:absolute;
     right: 0;
-    bottom: 0;
+    bottom: -1.5rem;
+    width: 50rem;
+    height: 60rem;
 }
