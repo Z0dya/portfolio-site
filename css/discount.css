@@ -1,0 +1,59 @@
+.discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount__text {
+    display: flex;
+    flex-direction: column;
+    width: 59.5rem;
+    height: 28rem;
+    position: relative;
+}
+
+.discount__title {
+    font-weight: 500;
+    font-size: 4.8rem;
+    line-height: 120%;
+    text-align: right;
+    color: #001049;
+    margin-bottom: 0;
+
+}
+
+.discount__subtitle {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 140%;
+    text-align: right;
+    color: #001049;
+
+}
+
+
+.discount__button-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.discount__button {
+    font-size: 16px;
+    font-weight: 500;
+    border: #5685FF solid 0.2rem;
+    background-color: #5685FF;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 1.5rem 3rem;
+    transition: all 0.3s ease-in-out;
+
+
+
+}
+
+.discount__button:hover {
+    opacity: 80%;
+    box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
+}

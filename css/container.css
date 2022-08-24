@@ -25,5 +25,10 @@
 
 .container--pricing {
     max-width: 121rem;
+    height: 127.8rem;
+}
+
+.container--discount{
+    height: 42.5rem;
     height: 100%;
 }

@@ -5,6 +5,9 @@
 @import url(./description.css);
 @import url(./benefits.css);
 @import url(./pricing.css);
+@import url(./discount.css);
+
+
 
 body {
     font-family: 'Jost', sans-serif;
