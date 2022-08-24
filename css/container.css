@@ -2,18 +2,16 @@
     height: 90rem;
     margin: 0 3rem;
     max-width: 126rem;
-    width: calc(100% - 5rem); /* отступы по краям*/
+    width: calc(100% - 5rem);
+    /* отступы по краям*/
 }
 
 .container--intro {
     max-width: 130rem;
-
 }
 
 .container--benefits {
-  
     height: fit-content;
-
 }
 
 .container-bg--benefits {
@@ -23,4 +21,9 @@
     width: 100%;
     height: 66.8rem;
     background-color: rgb(246, 249, 255);
+}
+
+.container--pricing {
+    width: 121rem;
+
 }
