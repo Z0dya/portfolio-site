@@ -9,7 +9,6 @@
     flex-direction: column;
     width: 59.5rem;
     height: 28rem;
-    position: relative;
 }
 
 .discount__title {
@@ -28,18 +27,17 @@
     line-height: 140%;
     text-align: right;
     color: #001049;
-
 }
 
 
 .discount__button-block {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
 }
 
 .discount__button {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     border: #5685FF solid 0.2rem;
     background-color: #5685FF;
@@ -48,9 +46,6 @@
     width: fit-content;
     padding: 1.5rem 3rem;
     transition: all 0.3s ease-in-out;
-
-
-
 }
 
 .discount__button:hover {
