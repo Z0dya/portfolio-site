@@ -84,24 +84,22 @@ label:active:after {
 }
 
 .pricing__down {
-    width: 120.8rem;
     height: 81.5rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    margin: 0 auto;
+    align-items: flex-end;
 }
 
 .pricing__subscription--block {
     width: 34rem;
-height: 100%;
     background: #FAFAFA;
-    box-shadow: 0 1rem 5rem rgba(86, 133, 255, 0.15);
+    box-shadow: 0 1rem 5rem 1.5rem rgba(86, 133, 255, 0.15);
     border-radius: 4rem;
+    margin: 0 1rem;
 }
 
 .middle--block {
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
 }
 
 .subscription--inside {

@@ -24,6 +24,6 @@
 }
 
 .container--pricing {
-    width: 121rem;
-
+    max-width: 121rem;
+    height: 100%;
 }
