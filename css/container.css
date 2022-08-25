@@ -32,3 +32,16 @@
     height: 42.5rem;
     height: 100%;
 }
+
+.container-bg--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40.5rem;
+    background-color: #DFE8FF;
+}
+
+.container--footer {
+    height: fit-content;
+}
