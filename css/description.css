@@ -89,7 +89,5 @@
 .description__down {
     display: flex;
     justify-content: center;
-    position: relative;
-    right: 15rem;
-    margin-bottom: 7.2rem;
+    margin-right: 30rem;
 }

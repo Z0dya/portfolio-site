@@ -7,7 +7,7 @@
 @import url(./pricing.css);
 @import url(./discount.css);
 @import url(./footer.css);
-
+@import url(./adaptive-design/ad-header.css);
 
 body {
     font-family: 'Jost', sans-serif;
