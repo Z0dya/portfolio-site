@@ -1,13 +1,19 @@
 .footer {
     display: grid;
     grid-template-columns: 35% 65%;
-    gap: 3rem;
+    gap: 5rem;
     align-items: center;
     height: 100%;
     margin-top: 4rem;
 }
 
-.footer__left {}
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-right: 3rem;
+}
 
 .footer__subtitle {
     font-weight: 400;
@@ -22,8 +28,6 @@
 }
 
 .footer__mail {
-    /* display: flex;
-    flex-direction: row; */
     position: relative;
 }
 
@@ -40,7 +44,6 @@
     width: fit-content;
     padding: 1.5rem 4rem;
     transition: all 0.3s ease-in-out;
-    margin-right: 5rem;
 }
 
 .footer__button:hover {
@@ -50,7 +53,7 @@
 }
 
 .email__field {
-    width: 26.4rem;
+    width: 35rem;
     padding: 2rem 2rem;
     opacity: 0.4;
     border: 0.1rem solid #001049;
@@ -66,6 +69,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 25rem;
     align-items: start;
+    margin-left: 3rem;
 }
 
 .footer__title {
