@@ -1,18 +1,25 @@
 /* font-family: 'Jost', sans-serif */
-@import url(./container.css);
-@import url(./header.css);
 @import url(./intro.css);
-@import url(./description.css);
-@import url(./benefits.css);
-@import url(./pricing.css);
-@import url(./discount.css);
 @import url(./footer.css);
+@import url(./header.css);
+@import url(./pricing.css);
+@import url(./benefits.css);
+@import url(./discount.css);
+@import url(./container.css);
+@import url(./description.css);
 @import url(./adaptive-design/ad-header.css);
+@import url(./adaptive-design/ad-intro.css);
+@import url(./adaptive-design/ad-benefits.css);
+@import url(./adaptive-design/ad-description.css);
+@import url(./adaptive-design/ad-pricing.css);
+
+
 
 body {
     font-family: 'Jost', sans-serif;
     color: #333;
     margin: 0;
+    
 }
 
 html {
@@ -28,4 +35,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+*{
+    /* transition: all 0.2s; */
 }

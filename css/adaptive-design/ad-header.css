@@ -1,3 +1,5 @@
- body {
-    font-size: inherit;
- }
+@media (max-width:705px) {
+    nav {
+        display: none;
+    }
+}

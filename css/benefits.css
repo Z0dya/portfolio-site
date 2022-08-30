@@ -1,15 +1,18 @@
 .benefits {
     height: 60rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .benefits__block {
     width: 100%;
     max-width: 52rem;
     height: fit-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 1rem 0;
 }
 
 .benefits__number-block {
@@ -20,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0;
+
 }
 
 .benefits__text-block {
@@ -51,9 +54,8 @@
     font-size: 1.6rem;
     font-weight: 400;
     color: #2A3354;
-    width: 100%;
-    max-width: 30.9rem;
-    max-height: 8.8rem;
+    width: 30.9rem;
+    grid-column: 2/3;
 }
 
 .benefits__button {
@@ -65,11 +67,10 @@
     color: #FFFFFF;
     border-radius: 1rem;
     width: fit-content;
-    max-width: 19rem;
-    max-height: 6.2rem;
     padding: 1rem 3rem;
     transition: all 0.3s ease-in-out;
     margin-top: 3rem;
+    grid-column: 2/3;
 }
 
 .benefits__button:hover {
@@ -80,9 +81,8 @@
 
 
 .benefits__svg {
-    position:absolute;
+    position: absolute;
     right: 0;
-    bottom: -1.5rem;
+    bottom: 0;
     width: 50rem;
-    height: 60rem;
 }

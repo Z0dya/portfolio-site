@@ -9,22 +9,25 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="./css/style.css" />
+	
 	<title>Layout</title>
 </head>
 
 <body>
 	<header class="header">
-		<img src="./image/logo.svg" alt="logo" ondragstart="return false;" class="header__logo" />
-		<nav>
-			<a href="#" class="header__link underlink">Features</a>
-			<a href="#" class="header__link underlink">Pricing</a>
-			<a href="#" class="header__link underlink">Overview</a>
-			<a href="#" class="header__link underlink">About</a>
-		</nav>
-		<div class="header__buttons">
-			<img src="./image/language.svg" ondragstart="return false;" alt="language" />
-			<a href="#" class="header__link underlink">English</a>
-			<a href="#" class="header__link header__link--button">Sign Up</a>
+		<div class="container container--header">
+			<img src="./image/logo.svg" alt="logo" ondragstart="return false;" class="header__logo" />
+			<nav>
+				<a href="#" class="header__link underlink">Features</a>
+				<a href="#" class="header__link underlink">Pricing</a>
+				<a href="#" class="header__link underlink">Overview</a>
+				<a href="#" class="header__link underlink">About</a>
+			</nav>
+			<div class="header__buttons">
+				<img src="./image/language.svg" ondragstart="return false;" alt="language" />
+				<a href="#" class="header__link underlink">English</a>
+				<a href="#" class="header__link header__link--button">Sign Up</a>
+			</div>
 		</div>
 	</header>
 
@@ -93,7 +96,6 @@
 						<div class="benefits__number-block">
 							<h1 class="benefits__number">1</h1>
 						</div>
-						<div class="benefits__text-block">
 							<h1 class="benefits__title">
 								We have been improving our product
 								<span class="colored__text">for many years</span>
@@ -102,13 +104,11 @@
 								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
 								Exercitation veniam consequat sunt nostrud amet.
 							</h2>
-						</div>
 					</div>
 					<div class="benefits__block">
 						<div class="benefits__number-block">
 							<h1 class="benefits__number">2</h1>
 						</div>
-						<div class="benefits__text-block">
 							<h1 class="benefits__title">
 								You can practice at any
 								<span class="colored__text">time convenient for you</span>
@@ -116,7 +116,6 @@
 							<h2 class="benefits__subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h2>
 
 							<a href="#" class="benefits__button">Get started</a>
-						</div>
 					</div>
 					<img class="benefits__svg" src="./image/benefits.svg" alt="svg" />
 				</div>
@@ -248,7 +247,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="pricing__subscription--block">
+				<div class="pricing__subscription--block end--block">
 					<div class="subscription--inside">
 						<div class="inside__main--text">
 							<h1 class="pricing__title--block">Premium</h1>
@@ -307,7 +306,7 @@
 		<div class="container container--discount">
 			<div class="discount">
 				<div class="discount__image">
-					<img src="./image/Discount-finger.svg" alt="finger">
+					<img src="./image/Discount-finger.svg" class="finger__svg" alt="finger">
 				</div>
 				<div class="discount__text">
 					<h1 class="discount__title">

@@ -70,6 +70,7 @@
     grid-template-rows: 25rem;
     align-items: start;
     margin-left: 3rem;
+    max-width: 90%;
 }
 
 .footer__title {

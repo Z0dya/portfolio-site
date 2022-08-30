@@ -6,6 +6,13 @@
     /* отступы по краям*/
 }
 
+.container--header{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container--intro {
     max-width: 130rem;
 }
@@ -19,13 +26,12 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 66.8rem;
     background-color: rgb(246, 249, 255);
 }
 
 .container--pricing {
     max-width: 121rem;
-    height: 127.8rem;
+    height: 115rem;
 }
 
 .container--discount{

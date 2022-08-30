@@ -86,7 +86,6 @@ label:active:after {
 }
 
 .pricing__down {
-    height: 81.5rem;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
