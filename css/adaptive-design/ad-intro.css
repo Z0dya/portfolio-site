@@ -43,11 +43,7 @@
 @media (max-width:436px) {
 
     .intro__left {
-        height: 42rem;
-    }
-
-    .container--intro {
-        height: 37rem;
+        height: 45rem;
     }
 
 }
@@ -59,9 +55,6 @@
 
     }
 
-    .container--intro {
-        height: 33rem;
-    }
 
     .intro__button {
         margin: 0;

@@ -77,12 +77,18 @@
 }
 
 @media (max-width:435px) {
-    .description {
+    .description__box {
         transform: scale(0.8);
 
     }
 
-    .container--description{
-    width: fit-content;
+    .container--description {
+        width: fit-content;
+        height: fit-content;
     }
+
+    .description__subtitle {
+        max-width: 30rem;
+    }
+
 }

@@ -1,7 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: 35% 65%;
-    gap: 5rem;
+    grid-template-columns: 40% 20% 20% 20%;
     align-items: center;
     height: 100%;
     margin-top: 4rem;
@@ -13,6 +12,8 @@
     flex-wrap: wrap;
     align-items: start;
     margin-right: 3rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .footer__subtitle {
@@ -29,12 +30,13 @@
 
 .footer__mail {
     position: relative;
+
 }
 
 
 .footer__button {
     position: absolute;
-    right: 0;
+    right: -14rem;
     font-size: 1.6rem;
     font-weight: 500;
     border: #5685FF solid 0.2rem;
@@ -53,12 +55,13 @@
 }
 
 .email__field {
-    width: 35rem;
+    width: 22rem;
     padding: 2rem 2rem;
     opacity: 0.4;
     border: 0.1rem solid #001049;
     background-color: #DFE8FF;
     border-radius: 1rem;
+    box-sizing: border-box;
 }
 
 
@@ -81,8 +84,14 @@
     margin: 2rem 0;
 }
 
+.footer__logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 .footer__list {
     display: flex;
+    grid-row: 1/3;
 }
 
 .li-title {
