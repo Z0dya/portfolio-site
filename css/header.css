@@ -39,3 +39,13 @@
 .header__link--button:hover {
     box-shadow: 0px 8px 24px rgba(86, 133, 255, 0.25);
 }
+
+.header__burger-btn{
+    background:none;
+    border:none;
+    display: none;
+}
+.header__burger-img{
+    height: 4rem;
+    
+}

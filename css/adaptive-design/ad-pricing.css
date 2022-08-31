@@ -8,3 +8,34 @@
         display: none;
     }
 }
+
+@media (max-width:530px) {
+    .pricing__title {
+        font-size: 2.8rem;
+    }
+
+    .pricing__subtitle {
+        width: 80%;
+    }
+
+    .container--pricing {
+        width: fit-content;
+    }
+}
+
+@media (max-width:405px) {
+    .pricing__title {
+        font-size: 2.8rem;
+    }
+
+    .pricing__subtitle {
+        width: 50%;
+    }
+
+    .container--pricing {
+        width: fit-content;
+    }
+    .pricing__subscription--block{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,52 @@
+@media (max-width:720px) {
+    .discount__text {
+        align-items: flex-end;
+    }
+
+    .discount__title {
+        font-size: 2.4rem;
+        width: 70%;
+    }
+
+    .discount__subtitle {
+        width: 70%;
+    }
+
+    .container--discount {
+        position: relative;
+    }
+
+    .discount__image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    .finger__svg {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width:474px) {
+    .discount__title {
+
+        width: 90%;
+    }
+
+    .discount__subtitle {
+        width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .discount__title {
+
+        width: 100%;
+    }
+
+    .discount__subtitle {
+        width: 100%;
+    }
+}
