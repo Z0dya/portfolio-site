@@ -1,2 +1,2 @@
 # portfolio-site
-Hi, you can see how this site looks here - https://portfolio-site-psi-two.vercel.app/
+Hi! you can see how this site looks like here - https://portfolio-site-psi-two.vercel.app/
